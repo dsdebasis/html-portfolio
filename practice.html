@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form>
+    <h3>Payment Form</h3>
+    <h4>Contact Information</h4>
+    <fieldset>
+        <legend>User details </legend>
+        <p>User Name <input type="text" name="user name" required>
+        <p>User Password <input type="password" name="password" required></p>
+    </fieldset></p>
+
+    <fieldset>
+        <legend>Gender</legend>
+    <input type="radio" value="Male" name="Gender" required>Male
+    <input type="radio" value="Female" name="Gender" required>Female
+    </fieldset>
+
+    <fieldset>
+        <legend>Address</legend>
+        <p>State-<input type="text" name="address" required></p>
+        <p>District-<input type=text name='address' required></p>
+        <p>PS-<input type="text" name="address" required></p>
+        <p>Village-<input type="text" name="address" required></p>
+        <p>Pin-<input type="number" name="number" required></p>
+    </fieldset><br>
+
+    <fieldset>
+        <p>email-<input type='email' name='email' id='email' required></p>
+    </fieldset><br>
+    <label for="Plans">Select Plans:</label>
+    <select name="plans" id="plans">
+        <option value="">--select your plan--</option>
+        <option value="premium">Premium</option>
+        <option value="most premium">Most Premium</option>
+        <option value="standard">Standard</option>
+        <option value="ad supported">Ad Supported</option>
+    </select><br>
+    <p>Feedback<textarea name="feedback" id="1000" cols="20" rows="10"></textarea></p><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
