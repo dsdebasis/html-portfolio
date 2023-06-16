@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pri{
+            background-color: #dbe4de;
+            border: 2px solid rgb(17, 16, 16);
+            height: 570px;
+            width: 1200px;
+            padding: 10px;
+            display: grid;
+            gap: 10px;
+            row-gap: 20px;
+            grid-template-areas: " part1 part2  part3 "
+                                 " part4 part2  part5 "
+                                 " part4 part6  part5 ";
+        }
+        
+        .main{
+             border-radius: 10px;
+             width: 350px;
+        }
+        #part1{
+            grid-area: part1;
+            background-image: url("https://images.pexels.com/photos/16668843/pexels-photo-16668843/free-photo-of-city-beach-vacation-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-size: cover;
+          
+        }
+        #part2{
+            grid-area: part2;
+            background-image: url("https://images.pexels.com/photos/17193196/pexels-photo-17193196/free-photo-of-above-the-clouds.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+            background-size: cover;
+           
+        }
+        #part3{
+            grid-area: part3;
+            background-image: url("https://images.pexels.com/photos/17101356/pexels-photo-17101356/free-photo-of-gold-coins-euro-coin.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-size: cover;
+        }
+        #part4{
+            grid-area: part4;
+            background-image: url("https://images.pexels.com/photos/8910681/pexels-photo-8910681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-size: cover;
+           
+        }
+        #part5{
+            grid-area: part5;
+            background-image: url("https://images.pexels.com/photos/15148649/pexels-photo-15148649/free-photo-of-aerial-view-of-a-sea.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-size: cover;
+           
+        }
+        #part6{
+            grid-area: part6;
+            background-image: url("https://images.pexels.com/photos/17036236/pexels-photo-17036236/free-photo-of-houses-grass-green-czech-republic.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+            background-size: cover;
+         
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="pri">
+        <div id="part1" class="main"></div>
+        <div id="part2" class="main"></div>
+        <div id="part3" class="main"></div>
+        <div id="part4" class="main"></div>
+        <div id="part5" class="main"></div>
+        <div id="part6" class="main"></div>
+        
+    </div>
+</body>
+</html>

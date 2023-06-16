@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* body{
+        margin-left: 70px;
+       } */
+        .container1{
+            height: 700px;
+            width: 1200px;
+            border: 2px solid red;
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            grid-template-rows: 50px 1fr;
+            gap: 2px 5px ;
+            padding: 5px;
+        }
+        
+        .part1{
+            grid-column-start: 1;
+           grid-column-end: 3;
+           background-color: #f2eff4; 
+        }
+       
+        a{
+            color: rgb(4, 4, 4);
+            text-decoration: none;
+            padding: 10px 25px;
+        }
+       
+        .part2{
+            display: grid;
+            grid-template-rows: 60px 200px 60px;
+            align-content: center;
+            row-gap: 20px;
+            
+        }
+      
+       button{
+        padding: 5px 10px;
+        width: 150px;
+        color: white;
+        background-color: rgb(54, 52, 52);
+       }
+      .partA{
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 100px;
+         justify-items: center;
+        align-content: center; 
+       
+      }
+  #d{
+    background-color: rgb(102, 223, 100);
+    border-radius: 10px;
+   
+  }
+    img{
+        height: 100%;
+        width: 70%;
+     }
+     .part3{
+        background-color: goldenrod;
+     }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="part1 partA">
+            <a href="#" id="a">Home</a>
+            <a href="#" id="b">About</a>
+            <a href="#" id="c">Contact</a>
+            <a href="#" id="d">Login</a>
+        </div>
+        
+        <div class="part2 part">
+            <div class="part2a">
+                <h1>Healthy Food</h1>
+            </div>
+            <div class="part2b">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, doloremque. Illum ipsa incidunt libero aspernatur veniam rerum vel ex reiciendis vitae consectetur iusto sunt, molestias sed reprehenderit similique et fugit culpa iste id doloremque cupiditate repudiandae architecto facilis repellendus! Molestiae distinctio minus quaerat a nobis doloremque nisi, consequatur rem corrupti delectus nihil blanditiis iste suscipit? Autem, maxime doloremque adipisci aliquam fugit est culpa maiores corporis iste assumenda itaque. Commodi, labore!</p>
+            </div>
+            <div class="part2c">
+                <button>
+                    Read More
+                </button>
+            </div>
+        </div>
+        <div class="part3 part">
+            <img src="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+    </div>
+</body>
+</html>
